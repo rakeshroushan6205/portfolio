@@ -72,6 +72,15 @@ export const skills = [
         image:
           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeFkEoxqx0aROV16RLFKyz6QErGIQb-nY_jA&s",
       },
+      {
+        name: "Hibernate",
+        image: "https://miro.medium.com/0*jba3dz1j64rfhl5i.jpg",
+      },
+      {
+        name: "JDBC",
+        image:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO5a6cL8fqYTc3Zis6kg_3ODHgw21LyKPN6g&s",
+      },
     ],
   },
   {
