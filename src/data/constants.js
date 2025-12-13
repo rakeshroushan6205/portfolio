@@ -2,7 +2,7 @@ import { Instagram } from "@mui/icons-material";
 
 export const Bio = {
   name: "Rakesh Roushan",
-  roles: ["Java FullStack Developer", "Programmer"],
+  roles: ["Java Full Stack Developer", "Programmer"],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/rakeshroushan6205/code.git",
@@ -143,15 +143,16 @@ export const skills = [
         name: "Nginx",
         image: "https://download.logo.wine/logo/Nginx/Nginx-Logo.wine.png",
       },
-      {
-        name: "Grafana",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Grafana_logo.svg/1200px-Grafana_logo.svg.png",
-      },
+
       {
         name: "Kubernetes",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/0/00/Kubernetes_%28container_engine%29.png",
+      },
+      {
+        name: "Grafana",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Grafana_logo.svg/1200px-Grafana_logo.svg.png",
       },
     ],
   },
@@ -223,16 +224,16 @@ export const skills = [
         image:
           "https://s3-alpha.figma.com/hub/file/1481185752/fa4cd070-6a79-4e1b-b079-8b9b76408595-cover.png",
       },
+      {
+        name: "Adobe Photoshop",
+        image:
+          "https://www.greaterthangatsby.com/wp-content/uploads/2016/06/ps2.jpg",
+      },
 
       {
         name: "Vercel",
         image:
           "https://x5h8w2v3.delivery.rocketcdn.me/wp-content/uploads/2024/03/Logo-Vercel.png",
-      },
-      {
-        name: "Adobe Photoshop",
-        image:
-          "https://www.greaterthangatsby.com/wp-content/uploads/2016/06/ps2.jpg",
       },
     ],
   },
@@ -359,7 +360,9 @@ export const projects = [
       "JavaScript",
     ],
     category: "web app",
-    github: "",
+    github:
+      "https://github.com/rakeshroushan6205/Employee-Management-System.git",
+    webapp: "https://employee-management-system-frontend-black.vercel.app/",
   },
   {
     id: 1,
@@ -390,12 +393,12 @@ export const projects = [
       "SparkCart is a modern, full‑stack grocery shopping platform designed to make everyday essentials accessible, convenient, and efficient. It combines a sleek React frontend with a reliable Spring Boot backend, offering customers a seamless experience from browsing products to completing purchases.",
     image: "/planet/grocery.png",
     tags: [
+      "HTML",
+      "CSS",
       "Java",
       "Spring Boot",
       "Hibernate",
       "mySQL",
-      "HTML",
-      "CSS",
       "JavaScript",
     ],
     category: "web app",
@@ -404,6 +407,27 @@ export const projects = [
   },
   {
     id: 3,
+    title: "Prepare Your Exam",
+    date: "Sep 2025 - Dec 2025",
+    description:
+      "Exam management is the backbone of modern education and training systems. It involves end-to-end handling of exams, from designing question papers to publishing results. Traditionally, this was done manually, but now institutions rely on Exam Management Systems (EMS)—software platforms that automate and streamline the entire process.",
+    image: "/planet/exam.png",
+    tags: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Java",
+      "Spring Boot",
+      "Hibernate",
+      "mySQL",
+      "Maven",
+    ],
+    category: "web app",
+    github: "",
+    webapp: "",
+  },
+  {
+    id: 4,
     title: "EMedicareApp",
     date: "May 2024 - June 2024",
     description:
@@ -417,6 +441,7 @@ export const projects = [
       "HTML",
       "CSS",
       "JavaScript",
+      "Maven",
     ],
     category: "web app",
     github: "",
