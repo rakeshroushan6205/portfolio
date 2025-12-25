@@ -1,13 +1,17 @@
 import { Instagram } from "@mui/icons-material";
 
 export const Bio = {
-  name: "Rakesh Roushan",
+  name: (
+    <span>
+      <span style={{ color: "green" }}>Ra</span>kesh Roushan
+    </span>
+  ),
   roles: ["Java Full Stack Developer", "Programmer"],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/rakeshroushan6205/code.git",
   resume:
-    "https://drive.google.com/file/d/13w9W8hJU_rxlAXZshuACeD2-9frYKp1k/view?usp=sharing",
+    "https://drive.google.com/file/d/14-mIN39B62AXfQxVGVhkVYMPE_52VtVf/view?usp=drivesdk",
   linkedin: "https://www.linkedin.com/in/rakeshro-java-dev",
   email:
     "https://mail.google.com/mail/?view=cm&fs=1&to=rakeshroushan620570@gmail.com",
@@ -27,6 +31,11 @@ export const skills = [
       {
         name: "HTML",
         image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
+      },
+      {
+        name: "Tailwind CSS",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/960px-Tailwind_CSS_Logo.svg.png",
       },
       {
         name: "CSS",
@@ -125,6 +134,16 @@ export const skills = [
           "https://algotrading101.com/learn/wp-content/uploads/2022/09/Google-Cloud-Logo-Lockup-MAIN-png-1.webp",
       },
       {
+        name: "Kubernetes",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/0/00/Kubernetes_%28container_engine%29.png",
+      },
+      {
+        name: "Jenkins",
+        image:
+          "https://toppng.com/uploads/preview/jenkins-logo-11609365847mufysaivph.png",
+      },
+      {
         name: "Docker",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
@@ -134,26 +153,17 @@ export const skills = [
         image:
           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT46O8fT8oABqqSUgDIKxBCnuJKF2Hie0fPMg&s",
       },
-      {
-        name: "Jenkins",
-        image:
-          "https://toppng.com/uploads/preview/jenkins-logo-11609365847mufysaivph.png",
-      },
-      {
-        name: "Nginx",
-        image: "https://download.logo.wine/logo/Nginx/Nginx-Logo.wine.png",
-      },
 
-      {
-        name: "Kubernetes",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/0/00/Kubernetes_%28container_engine%29.png",
-      },
-      {
-        name: "Grafana",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Grafana_logo.svg/1200px-Grafana_logo.svg.png",
-      },
+      // {
+      //   name: "Nginx",
+      //   image: "https://download.logo.wine/logo/Nginx/Nginx-Logo.wine.png",
+      // },
+
+      // {
+      //   name: "Grafana",
+      //   image:
+      //     "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Grafana_logo.svg/1200px-Grafana_logo.svg.png",
+      // },
     ],
   },
 
@@ -179,6 +189,11 @@ export const skills = [
         name: "C",
         image:
           "https://e7.pngegg.com/pngimages/465/779/png-clipart-blue-and-white-c-logo-the-c-programming-language-computer-programming-computer-icons-programmer-blue-angle.png",
+      },
+      {
+        name: "JavaScript",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
       },
     ],
   },
@@ -381,7 +396,8 @@ export const projects = [
       "JavaScript",
     ],
     category: "web app",
-    github: "",
+    github:
+      "https://github.com/rakeshroushan6205/TrendHive-Ecommerce-Website.git",
     webapp: "",
   },
 
@@ -402,7 +418,7 @@ export const projects = [
       "JavaScript",
     ],
     category: "web app",
-    github: "",
+    github: "https://github.com/rakeshroushan6205/SparkCartMain.git",
     webapp: "",
   },
   {
@@ -423,7 +439,7 @@ export const projects = [
       "Maven",
     ],
     category: "web app",
-    github: "",
+    github: "https://github.com/rakeshroushan6205/Prepare-Your-Exam.git",
     webapp: "",
   },
   {
@@ -455,5 +471,18 @@ export const projects = [
     //   },
 
     // ],
+  },
+
+  {
+    id: 5,
+    title: "Simon Game",
+    date: "Dec 2025 - Dec 2025",
+    description:
+      "The Simon Game is a browser-based memory game developed using HTML, CSS, and JavaScript. The game challenges users to improve their memory skills by remembering and repeating an increasingly complex sequence of colored buttons. With each level, the game adds a new color to the sequence, increasing difficulty and engagement.",
+    image: "/planet/simon game.png",
+    tags: ["HTML", "CSS", "JavaScript"],
+    category: "android app",
+    github: "https://github.com/rakeshroushan6205/Simon-Game.git",
+    webapp: "https://simon-game-self-three.vercel.app/",
   },
 ];
