@@ -12,6 +12,7 @@ import {
   headTextAnimation,
 } from "../../utils/motion";
 import StarCanvas from "../canvas/Stars";
+import "../../data/Bio.css";
 
 const HeroContainer = styled.div`
   display: flex;
@@ -230,8 +231,8 @@ const Hero = () => {
               <motion.div {...headTextAnimation}>
                 <Title>
                   <span>
-                    <span style={{ color: "green" }}>H</span>i, I am <br />{" "}
-                    {Bio.name}
+                    <span style={{ color: "green" }}>H</span>
+                    <div className="rakesh">i, I am</div> <br /> {Bio.name}
                   </span>
                 </Title>
                 <TextLoop>

@@ -1,9 +1,10 @@
 import { Instagram } from "@mui/icons-material";
-
+import "./Bio.css";
 export const Bio = {
   name: (
     <span>
-      <span style={{ color: "green" }}>Ra</span>kesh Roushan
+      <span className="ra-tile">Ra</span>
+      <span className="rakesh">kesh Roushan</span>
     </span>
   ),
   roles: ["Java Full Stack Developer", "Programmer"],

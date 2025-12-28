@@ -1,0 +1,22 @@
+.rakesh {
+  /* background-image: url("/src/data/ra2.jpg"); */
+  background-image: url("/src/data/smoke2.jpg");
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  animation: animate 5s linear infinite;
+  display: inline-block;
+}
+
+@keyframes animate {
+  from {
+    background-position: 0% 50%;
+  }
+  to {
+    background-position: 100% 50%;
+  }
+}
+.ra-tile {
+  color: green;
+}
