@@ -63,11 +63,7 @@ export const skills = [
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
       },
-      {
-        name: "Kotlin",
-        image:
-          "https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg",
-      },
+
       {
         name: "Spring Boot",
         image: "https://miro.medium.com/1*os-kEY6vkmhbx3TEznlOng.png",
@@ -115,10 +111,6 @@ export const skills = [
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
       },
-      {
-        name: "Firebase",
-        image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
-      },
     ],
   },
   {
@@ -139,11 +131,7 @@ export const skills = [
         image:
           "https://upload.wikimedia.org/wikipedia/commons/0/00/Kubernetes_%28container_engine%29.png",
       },
-      {
-        name: "Jenkins",
-        image:
-          "https://toppng.com/uploads/preview/jenkins-logo-11609365847mufysaivph.png",
-      },
+
       {
         name: "Docker",
         image:
@@ -154,17 +142,6 @@ export const skills = [
         image:
           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT46O8fT8oABqqSUgDIKxBCnuJKF2Hie0fPMg&s",
       },
-
-      // {
-      //   name: "Nginx",
-      //   image: "https://download.logo.wine/logo/Nginx/Nginx-Logo.wine.png",
-      // },
-
-      // {
-      //   name: "Grafana",
-      //   image:
-      //     "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Grafana_logo.svg/1200px-Grafana_logo.svg.png",
-      // },
     ],
   },
 
@@ -235,11 +212,11 @@ export const skills = [
           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTOndlNFKOUXtQA4DkTirUbZoCSOirFo0ZKbNT2EwY48PPvZjTf_wsS9jFC18ZzZ2HYOw&usqp=CAU",
       },
 
-      {
-        name: "Figma",
-        image:
-          "https://s3-alpha.figma.com/hub/file/1481185752/fa4cd070-6a79-4e1b-b079-8b9b76408595-cover.png",
-      },
+      // {
+      //   name: "Figma",
+      //   image:
+      //     "https://s3-alpha.figma.com/hub/file/1481185752/fa4cd070-6a79-4e1b-b079-8b9b76408595-cover.png",
+      // },
       {
         name: "Adobe Photoshop",
         image:
@@ -250,6 +227,11 @@ export const skills = [
         name: "Vercel",
         image:
           "https://x5h8w2v3.delivery.rocketcdn.me/wp-content/uploads/2024/03/Logo-Vercel.png",
+      },
+      {
+        name: "Render",
+        image:
+          "https://media.licdn.com/dms/image/v2/D4E0BAQGGDoFoqHtOvA/company-logo_200_200/company-logo_200_200/0/1702595267620/renderco_logo?e=2147483647&v=beta&t=ZYrxKUyruOEupgw5Lr5amgwgBCJq8VXH8r05Qr5CeQc",
       },
     ],
   },
@@ -374,6 +356,7 @@ export const projects = [
       "HTML",
       "CSS",
       "JavaScript",
+      "React",
     ],
     category: "web app",
     github:
@@ -395,6 +378,7 @@ export const projects = [
       "HTML",
       "CSS",
       "JavaScript",
+      "React",
     ],
     category: "web app",
     github:
@@ -417,6 +401,7 @@ export const projects = [
       "Hibernate",
       "mySQL",
       "JavaScript",
+      "React",
     ],
     category: "web app",
     github: "https://github.com/rakeshroushan6205/SparkCartMain.git",
@@ -433,6 +418,7 @@ export const projects = [
       "HTML",
       "CSS",
       "JavaScript",
+      "React",
       "Java",
       "Spring Boot",
       "Hibernate",
@@ -458,6 +444,7 @@ export const projects = [
       "HTML",
       "CSS",
       "JavaScript",
+      "React",
       "Maven",
     ],
     category: "web app",
@@ -485,5 +472,27 @@ export const projects = [
     category: "android app",
     github: "https://github.com/rakeshroushan6205/Simon-Game.git",
     webapp: "https://simon-game-self-three.vercel.app/",
+  },
+  {
+    id: 6,
+    title: "AI Portfolio Builder",
+    date: "Jan 2026 - Feb 2026",
+    description:
+      "AI Portfolio Builder is a smart web-based platform designed to help professionals create modern, personalized, and job-ready portfolios instantly using Artificial Intelligence. The system collects user details such as skills, projects, experience, education, and achievements, then automatically generates a clean, professional portfolio website within minutes.",
+    image: "/planet/portfolio.png",
+    tags: [
+      "Java",
+      "Spring Boot",
+      "Hibernate",
+      "mySQL",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Gemini AI",
+    ],
+    category: "web app",
+    github: "https://github.com/rakeshroushan6205/Ai-Portfolio-Generator.git",
+    webapp: "https://ai-portfolio-generator-12.onrender.com",
   },
 ];
