@@ -1,4 +1,3 @@
-import { Instagram } from "@mui/icons-material";
 import "./Bio.css";
 export const Bio = {
   name: (
@@ -212,11 +211,11 @@ export const skills = [
           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTOndlNFKOUXtQA4DkTirUbZoCSOirFo0ZKbNT2EwY48PPvZjTf_wsS9jFC18ZzZ2HYOw&usqp=CAU",
       },
 
-      // {
-      //   name: "Figma",
-      //   image:
-      //     "https://s3-alpha.figma.com/hub/file/1481185752/fa4cd070-6a79-4e1b-b079-8b9b76408595-cover.png",
-      // },
+      {
+        name: "Figma",
+        image:
+          "https://s3-alpha.figma.com/hub/file/1481185752/fa4cd070-6a79-4e1b-b079-8b9b76408595-cover.png",
+      },
       {
         name: "Adobe Photoshop",
         image:
