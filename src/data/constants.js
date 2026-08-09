@@ -242,7 +242,7 @@ export const experiences = [
     img: "https://images.jdmagicbox.com/v2/comp/bangalore/s4/080pxx80.xx80.220314014338.t9s4/catalogue/tap-academy-pvt-ltd-sbi-bank-colony-bangalore-tutorials-uj7mpei0gw.jpg",
     role: "Training program",
     company: "TAP Academy",
-    date: "oct 2025 - mar 2025",
+    date: "Oct 2025 - Mar 2025",
     desc: "I completed a Java Full Stack Developer training program, gaining hands‑on expertise in both frontend and backend technologies. This included professional coaching with practical training in Java, Spring Boot, Hibernate, REST APIs, React, and MySQL, where I developed real‑world projects demonstrating end‑to‑end application design, deployment, and integration.",
     skills: [
       "Java",
